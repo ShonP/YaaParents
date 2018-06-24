@@ -1,14 +1,54 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
+<ion-content class="card-background-page">
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <ion-card [navPush]="wikiPage">
+    <img style="filter:brightness(40%)" src="assets/imgs/yaaenter.jpg" />
+    <div class="card-title">יחידת האחזקה האווירית 22</div>
+    <div class="card-subtitle">מידע על היחידה</div>
+  </ion-card>
+
+  <ion-card [navPush]="timesPage">
+    <img style="filter:brightness(40%)" src="assets/imgs/Clock-Calendar.png" />
+    <div class="card-title">לו"ז יום הורים</div>
+    <div class="card-subtitle">מידע על לוח הזמנים</div>
+  </ion-card>
+
+  <ion-card [navPush]="thumimPage">
+    <img style="filter:brightness(55%)" src="assets/imgs/fixing.jpg" />
+    <div class="card-title">אז מה בעצם אנחנו עושים?</div>
+  </ion-card>
+
+  <ion-card>
+    <img style="filter:brightness(70%)" src="assets/imgs/tech.jpg" />
+    <div class="card-title">טכנולוגיות</div>
+  </ion-card>
+
+  <ion-card>
+    <a href="https://www.youtube.com/watch?v=UjjbPQCQTqw&feature=youtu.be">
+      <img style="filter:brightness(40%)" src="assets/imgs/youtube.png" />
+      <div class="card-title">יוטיוב</div>
+      <div class="card-subtitle">צפו בסרטון תדמיתי על היחידה</div>
+    </a>
+  </ion-card>
+  <ion-card>
+    <a href="https://www.google.com/maps/place/%D7%9E%D7%97%D7%A0%D7%94+%D7%AA%D7%9C+%D7%A0%D7%95%D7%A3%E2%80%AD/@31.824535,34.8178014,14z/data=!4m8!1m2!2m1!1z16rXnCDXoNeV16M!3m4!1s0x0:0x49def12f38fa63a3!8m2!3d31.8222801!4d34.8194987">
+      <img style="filter:brightness(40%)" src="assets/imgs/gm.jpeg" />
+      <div class="card-title">איך להגיע?</div>
+      <div class="card-subtitle">נווט אל היחידה</div>
+    </a>
+  </ion-card>
+  <ion-card>
+    <a href="https://www.mako.co.il/pzm-units/air-force/Article-00897aae7467d41006.htm">
+      <img style="filter:brightness(40%)" src="assets/imgs/MAKO-LOGO.jpg" />
+      <div class="card-title">חדשות מאקו</div>
+      <div class="card-subtitle">מאקו מספרת על היחידה</div>
+    </a>
+  </ion-card>
+  <ion-card>
+    <a href="https://www.facebook.com/groups/262039597313100/">
+      <img style="filter:brightness(40%)" src="assets/imgs/fb.jpg" />
+      <div class="card-title">פייסבוק</div>
+      <div class="card-subtitle">הצטרפו לפייסבוק שלנו</div>
+    </a>
+  </ion-card>
+
 </ion-content>
